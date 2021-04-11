@@ -1,17 +1,14 @@
 #Explain your work
 
 #Question 1
-dict = {"global" :"123","admin":"admin"}
-username = ""
-password = ""
 
-def check(username, password):
-	username = input("Username :")
-	password = input("Password :")
+userInfo = {"userName":['global','admin'],"password":['123','admin']}
 
-	if username in dict.keys() and password in dict.values():
-		print("Successfully Login!")
-	else:
-		print("Login Failed!!")
-
-check(username,password)
+username = input("Please enter your username : ")
+password = input("Please enter your password : ")
+for i in range(len(userInfo["userName"])) :
+	if username == userInfo["userName"][i] :
+		if password == userInfo["password"][i]:
+			print("Successfully Login!")
+		else:
+			print("Login Failed!!")
