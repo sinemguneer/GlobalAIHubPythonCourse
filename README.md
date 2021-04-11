@@ -1,24 +1,19 @@
 # GAIH Student Repo Example
 ![](img/newlogo.png)
 
-**Course Date:** DD.MM.YYYY  
-**Name:** Mert  
-**Surname:** Cobanov  
-**Email:** mertcobanov@gmail.com  
-
-**Note:** Your homeworks can be formats like ".ipynb" and ".py". **Not ".txt" files!!** Make sure that your codes works.  
+**Course Date:** 05.04.2021 - 09.04.2021  
+**Name:** Sinem  
+**Surname:** Guner  
+**Email:** sinem_guner95@outlook.com  
+  
 
 ## Project Name
-Description of your project.
+HomeWorks and Final Project
 
 ## Requirements
 ```
-Some python libraries
-Some python libraries
-Some python libraries
-```
----
+Pandas Library
 
-### Certification
-![](img/TopLearnerCertificate.png)
+```
+
 
