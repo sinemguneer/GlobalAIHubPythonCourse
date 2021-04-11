@@ -13,3 +13,14 @@ lastHalf = lastHalf + firstHalf
 print(lastHalf)
 
 #Question 2
+number = float(input("Please enter a single digit number : "))
+list = []
+if (number<0 or number>=10) or int(number)-number !=0  :
+	while number<0 or number>=10 or int(number)-number !=0:
+		number = float(input("Please enter a single digit number : "))
+
+for i in range(0,int(number)+1):
+	if i % 2 == 0:
+		list.append(i)
+print(list)
+
